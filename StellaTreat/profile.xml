@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+       <listener class-name="Utils.TestListener"/>
+        
+    </listeners>
+  <test thread-count="1" name="Test">
+    <classes>
+    
+    <class name="Testcases.StellaChat"/>
+    <class name="Testcases.AccountCheck"/>
+     <class name="Testcases.Checknotification"/>
+      <class name="Testcases.Privacy_Security"/>
+      <class name="Testcases.Languagechange"/>
+      <class name="Testcases.appInformation"/>
+      <class name="Testcases.UploadProfile"/>
+      
+      <class name="Testcases.LogoutApp"/>
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-20T16:50:42 IST" name="Default suite" finished-at="2022-09-20T16:51:05 IST" duration-ms="22682">
+    <groups>
+    </groups>
+    <test started-at="2022-09-20T16:50:42 IST" name="Default test" finished-at="2022-09-20T16:51:05 IST" duration-ms="22682">
+      <class name="Testcases.Login">
+        <test-method is-config="true" signature="Launchapp()[pri:0, instance:Testcases.Login@4b29d1d2]" started-at="2022-09-20T16:50:42 IST" name="Launchapp" finished-at="2022-09-20T16:50:58 IST" duration-ms="16311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launchapp -->
+        <test-method signature="loginTest()[pri:1, instance:Testcases.Login@4b29d1d2]" started-at="2022-09-20T16:50:58 IST" name="loginTest" finished-at="2022-09-20T16:51:05 IST" duration-ms="6330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- Testcases.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
